@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { Github, ExternalLink, Heart } from 'lucide-react'
+import { Github, ExternalLink, Heart, FileText } from 'lucide-react'
 
 const Footer = () => {
   return (
@@ -32,6 +32,20 @@ const Footer = () => {
             >
               <Github className="w-5 h-5" />
               <span>Repositorio del proyecto</span>
+              <ExternalLink className="w-4 h-4" />
+            </motion.a>
+            
+            <span className="text-gray-500">•</span>
+            
+            <motion.a
+              href="https://deepwiki.com/LucasIsac/Sem-II"
+              target="_blank"
+              rel="noopener"
+              whileHover={{ scale: 1.05 }}
+              className="flex items-center space-x-2 text-gray-300 hover:text-white transition-colors font-medium"
+            >
+              <FileText className="w-5 h-5" />
+              <span>Documentación</span>
               <ExternalLink className="w-4 h-4" />
             </motion.a>
             
