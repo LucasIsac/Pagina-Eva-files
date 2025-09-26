@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion'
 import { Github, Play, FileText } from 'lucide-react'
+import logo from '../assets/logo2.png'
 
 const Hero = () => {
   return (
@@ -22,7 +23,7 @@ const Hero = () => {
             <div className="flex items-center space-x-3">
               {/* Logo */}
               <img 
-                src="../assets/logo2.png" 
+                src={logo} 
                 alt="Eva Files Logo" 
                 className="w-16 h-16 object-contain rounded-xl"
               />

@@ -2,6 +2,9 @@ import { motion } from 'framer-motion'
 import { useInView } from 'framer-motion'
 import { useRef } from 'react'
 import { Linkedin, Github, Mail } from 'lucide-react'
+import lucas from '../assets/lucas.jpeg'
+import martin from '../assets/martin.jpg'
+import lautY from '../assets/lautY.jpeg'
 
 const Team = () => {
   const ref = useRef(null)
@@ -10,21 +13,21 @@ const Team = () => {
   const teamMembers = [
     {
       name: "Lucas Isaac De La Fuente",
-      image: "assets/lucas.jpeg",
+      image: lucas,
       linkedin: "https://www.linkedin.com/in/lucas-isaac-de-la-fuente-071603287/",
       github: "https://github.com/LucasIsac",
       email: "lisaacdlf21@gmail.com"
     },
     {
       name: "Peralta Martin Emiliano",
-      image: "assets/martin.jpg",
+      image: martin,
       linkedin: "https://www.linkedin.com/in/martin-emiliano-peralta-4a826b236/",
       github: "https://github.com/martinprlt",
       email: "#"
     },
     {
       name: "Soreire Lautaro",
-      image: "assets/lautY.jpeg",
+      image: lautY,
       linkedin: "#",
       github: "#",
       email: "#"
