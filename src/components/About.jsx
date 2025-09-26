@@ -22,7 +22,7 @@ const About = () => {
             transition={{ delay: 0.2, duration: 0.6 }}
             className="text-4xl lg:text-5xl font-bold text-white tracking-tight"
           >
-            ¿Qué hace <span className="gradient-text">FileMate AI</span>?
+            ¿Qué hace <span className="gradient-text">EVA Files</span>?
           </motion.h2>
           
           <motion.p

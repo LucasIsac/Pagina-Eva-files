@@ -13,7 +13,7 @@ const Footer = () => {
           className="text-center space-y-8"
         >
           <div className="flex items-center justify-center space-x-2 text-2xl font-bold tracking-tight">
-            <span>FileMate AI</span>
+            <span>EVA Files</span>
             <motion.div
               animate={{ rotate: [0, 10, -10, 0] }}
               transition={{ duration: 2, repeat: Infinity, repeatDelay: 3 }}

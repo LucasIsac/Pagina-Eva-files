@@ -24,11 +24,11 @@ const Hero = () => {
               {/* Logo */}
               <img 
                 src={logo} 
-                alt="Eva Files Logo" 
+                alt="EVA Files Logo" 
                 className="w-16 h-16 object-contain rounded-xl"
               />
               <div>
-                <h1 className="text-2xl font-bold text-white tracking-tight">Eva Files</h1>
+                <h1 className="text-2xl font-bold text-white tracking-tight">EVA Files</h1>
                 <p className="text-gray-300 font-medium">Asistente inteligente de archivos</p>
               </div>
             </div>
@@ -50,7 +50,7 @@ const Hero = () => {
             transition={{ delay: 0.6, duration: 0.6 }}
             className="text-xl text-gray-300 leading-relaxed max-w-lg font-medium"
           >
-            FileMate AI interpreta tus comandos usando Google Gemini y ejecuta conversiones 
+            EVA Files interpreta tus comandos usando Google Gemini y ejecuta conversiones 
             y operaciones sobre archivos con herramientas especializadas.
           </motion.p>
 
