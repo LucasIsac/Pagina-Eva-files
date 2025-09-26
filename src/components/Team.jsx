@@ -2,9 +2,9 @@ import { motion } from 'framer-motion'
 import { useInView } from 'framer-motion'
 import { useRef } from 'react'
 import { Linkedin, Github, Mail } from 'lucide-react'
-import lucas from '../assets/lucas.jpeg'
+import lucas from '../assets/lucas.jpg'
 import martin from '../assets/martin.jpg'
-import lautY from '../assets/lauty.jpeg'
+import lautY from '../assets/lauty.jpg'
 
 const Team = () => {
   const ref = useRef(null)
