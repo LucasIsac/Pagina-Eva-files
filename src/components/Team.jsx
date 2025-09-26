@@ -23,14 +23,14 @@ const Team = () => {
       image: martin,
       linkedin: "https://www.linkedin.com/in/martin-emiliano-peralta-4a826b236/",
       github: "https://github.com/martinprlt",
-      email: "#"
+      email: "Martinprlt02@gmail.com"
     },
     {
       name: "Soreire Lautaro",
       image: lautY,
-      linkedin: "#",
-      github: "#",
-      email: "#"
+      linkedin: "https://www.linkedin.com/in/lauty-soreire-95527b288/",
+      github: "https://github.com/SoreireLautaro",
+      email: "2lautyzavaley@gmail.com"
     }
   ]
 
