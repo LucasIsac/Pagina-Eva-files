@@ -4,7 +4,7 @@ import { useRef } from 'react'
 import { Linkedin, Github, Mail } from 'lucide-react'
 import lucas from '../assets/lucas.jpeg'
 import martin from '../assets/martin.jpg'
-import lautY from '../assets/lautY.jpeg'
+import lautY from '../assets/lauty.jpeg'
 
 const Team = () => {
   const ref = useRef(null)
